@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #121212;
+    
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+  }
+  .sidebar .logo img {
+    width: 130px;
+  }
+  .sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .sidebar .navigation ul li a:hover,
+  .sidebar .navigation ul li a:active,
+  .sidebar .navigation ul li a:focus {
+    color: #ffffff;
+  }
+  .sidebar .navigation ul li a:hover .fa,
+  .sidebar .navigation ul li a:active .fa,
+  .sidebar .navigation ul li a:focus .fa {
+    color: #b3b3b3;
+  }
+  .sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .sidebar .navigation ul li a:hover .fa:hover,
+  .sidebar .navigation ul li a:hover .fa:active,
+  .sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+  }
+  .sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+  }
+  .sidebar .policies ul {
+    list-style: none;
+  }
+  .sidebar .policies ul li {
+    padding-bottom: 5px;
+  }
+  .sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .sidebar .policies ul li a:hover,
+  .sidebar .policies ul li a:active,
+  .sidebar .policies ul li a:focus {
+    text-decoration: underline;
+  }
+  
+  .main-container {
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #0d0d0d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  .topbar .navbar button {
+    background-color: #0b0b0b;
+    color: #f6f3f3;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 20px;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+  .spotify-playlists {
+    padding: 20px 40px;
+  }
+  .spotify-playlists h2 {
+    color: #ffffff;
+    font-size: 22px;
+    
+  }
+  .spotify-playlists .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .clm img {
+    margin-left: 30px;
+   float: left;
+   
+    width: 300px;
+    padding: 15px;
+    }
+
+    .edm img{
+        align-content: start;
+        margin-left: 30px;
+        width: 300px;
+        padding: 15px;
+    }
+    .shows img{
+        margin-left: 30px;
+    }
+
+    
+  
+  .preview {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #181818;
+   
+  }
+  .preview img{
+    margin: 10px;
+    width: 200px;
+    
+  }
+
+  .control {
+    position:fixed;
+    bottom: 10px;
+    margin-left: 250px;
+    
+    
+            
+    background: #181818;
+   
+  }
+  .control img{
+    width: 550px;
+  }
+
+  .right {
+    position:fixed;
+    bottom: 20px;
+    margin-left: 1000px;
+    
+    
+            
+    background: #181818;
+   
+  }
+
+  .right img{
+    width: 250px;
+  }
+  #lib{
+    position: fixed;
+    top: 183px;
+    left: 60px;
+    
+  }
+
+  #plus1{
+    position: absolute;
+    top: 249px;
+    left: 60px;
+  }
+
+  #epi{
+    position: absolute;
+    top: 335px;
+    left: 60px;
+  }
+
+  #install{
+    position: absolute;
+    left: 60px;
+    top: 681px;
+  }
+
+  #angel{
+    position: absolute;
+    left: 1450px;
+  }
+
+  #pic{
+    position: absolute;
+    left: 1400px;
+  }
+  #edm1{
+    position: relative;
+    left: -720px;
+    top: 10px;
+  }
+
+  #device{
+    position: fixed;
+    bottom: -25px;
+    left: 5px;
+  }
+
+  #device img{
+    width: 2000px;
+  }
+
+  #speaker{
+
+    position: fixed;
+    left: 1200px;
+    bottom: -4px;
+
+  }
+  #speaker img{
+    width: 15px;
+  }
+
+  #asus{
+    position: fixed;
+    left: 1225px;
+    bottom: -2.5px;
+  }
+
+  #asus img{
+    width: 182px;
+  }
+
+  #see{
+    position: fixed;
+    top: 380px;
+    left: 1420px;
+  }
+
+  #see img{
+    
+    width: 50px;
+  }
